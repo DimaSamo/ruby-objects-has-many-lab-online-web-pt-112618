@@ -8,7 +8,7 @@ class Song
   end
 
   def artist_name
-    self.artist.name or nil
+    self.artist.name
   end
 
   def self.all
