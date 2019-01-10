@@ -19,4 +19,11 @@ class Artist
     @songs.push(new_song)
   end
 
+  def self.song_count
+    sum = 0
+    @@all.each do |artist|
+      sum += artist.songs.count
+    end
+    sum
+  end
 end
