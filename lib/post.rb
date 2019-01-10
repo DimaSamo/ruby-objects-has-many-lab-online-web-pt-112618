@@ -7,7 +7,7 @@ class Post
     @@all.push(self)
   end
 
-  def artist_name
+  def author_name
     self.author.name if self.author
   end
 
